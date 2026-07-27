@@ -1,0 +1,45 @@
+你好啊！我是 **雪野和花（Yukino Waka）** ，目前还是一名在校学生，在学校学习的道路上应该还要行走好几年 :spoiler[~~还要坐牢好几年~~] 。
+
+## 🛠️ 关于本站
+
+本站目前使用 **Astro** 博客的 **Firefly** 主题，从 Gridea → NotionNext → Halo，到现在落脚于此。  
+主要分享技术文章，有时会发一些学科类的文章，由于本人能力有限，有存在的问题还请大家批评指正！
+
+:::tip
+博客目前现已加入 **“开往”** 和 **“十年之约”** 项目
+:::
+
+## 📜 发展历程
+
+<div class="not-prose my-4">
+  <div class="rounded-2xl border border-(--line-divider) overflow-hidden">
+    <div class="p-5 sm:p-6">
+      {[
+        { date: "2026-07-26", event: "“凌云·LinYun”迁移至 Astro" },
+        { date: "2026-05-01", event: "“凌云·LinYun”再次迁移，使用 Halo" },
+        { date: "2025-07-27", event: "本站完成 ICP 备案" },
+        { date: "2025-07-08", event: "凌云肆二期开始运营" },
+        { date: "2024-08-25", event: "“凌云·LinYun”加入“十年之约”项目" },
+        { date: "2024-07-23", event: "“凌云·LinYun”加入“开往”项目" },
+        { date: "2023-08-14", event: "凌云肆一期终止支持" },
+        { date: "2023-07-29", event: "注册 linyun.link，“凌云·LinYun”成立" },
+        { date: "2023-06-16", event: "使用新的域名 linyunlink.top" },
+        { date: "2023-04-23", event: "“凌云·LinYun”迁移至 NotionNext" },
+        { date: "2022-05-16", event: "凌云肆一期运营，凌云·LinYun 的前身" },
+      ].map((item, index) => (
+        <div class="flex gap-3.5">
+          <div class="flex flex-col items-center">
+            <div class="w-7 h-7 rounded-full bg-(--primary) text-white text-xs font-bold flex items-center justify-center shrink-0">
+              {index + 1}
+            </div>
+            {index < 10 && <div class="w-0.5 flex-1 bg-(--line-divider) my-1.5"></div>}
+          </div>
+          <div class={index < 10 ? "pb-4" : ""}>
+            <p class="font-semibold text-sm mb-1 text-neutral-800 dark:text-neutral-200">{item.date}</p>
+            <p class="text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed">{item.event}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>

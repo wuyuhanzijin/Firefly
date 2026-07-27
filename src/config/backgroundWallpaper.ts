@@ -4,7 +4,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 壁纸模式："banner" 横幅壁纸，"fullscreen" 全屏壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
 	mode: "banner",
 	// 是否启用背景视频播放，配置后将在导航栏显示视频播放按钮
-	playerEnable: true,
+	playerEnable: false,
 	/**
 	 * 背景图片配置
 	 * 图片路径支持三种格式：
@@ -75,17 +75,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "凌云·LinYun",
 			// 主页横幅主标题字体大小
-			titleSize: "4.5rem",
+			titleSize: "5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"桂枝日已绿，拂雪凌云端。",
+				"𝑻𝒉𝒆 𝒇𝒐𝒂𝒎 𝒍𝒐𝒏𝒈𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒔𝒖𝒏, 𝒂𝒘𝒂𝒊𝒕𝒊𝒏𝒈 𝒅𝒆𝒂𝒕𝒉",
+				"𝑴𝒚 𝒅𝒆𝒄𝒂𝒚𝒊𝒏𝒈 𝒃𝒐𝒅𝒚 𝒘𝒊𝒍𝒍 𝒈𝒓𝒐𝒘 𝒈𝒓𝒆𝒆𝒏 𝒖𝒏𝒕𝒊𝒍 𝒎𝒚 𝒔𝒐𝒖𝒍 𝒊𝒔 𝒇𝒓𝒆𝒆",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
