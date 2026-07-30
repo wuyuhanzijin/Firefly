@@ -77,7 +77,7 @@ export const siteConfig: SiteConfig = {
 		logo: {
 			type: "url",
 			value: "https://image.linyunlink.top/logo/avatar.jpg",
-			valueDark: "https://image.linyunlink.top/logo/avatar.jpg"
+			valueDark: "https://image.linyunlink.top/logo/avatar.jpg",
 			alt: "🍀",
 		},
 		// 导航栏标题
