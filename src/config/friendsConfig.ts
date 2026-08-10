@@ -85,6 +85,15 @@ export const friendsConfig: FriendLink[] = [
 		weight: 994,
 		enabled: true,
 	},
+	{
+		title: "Ming博客",
+		imgurl: "https://image.linyunlink.top/links/mingblog.jpg",
+		desc: "记录日常生活、城市影像、旅行与观察，以及认真看过、读过和听过的作品。",
+		siteurl: "https://mingblog.site",
+		tags: ["友人"],
+		weight: 993,
+		enabled: true,
+	},
 ];
 
 // 获取启用的友链并进行排序
