@@ -107,7 +107,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:map-drive-24-regular",
 			},
 			{
-				name: "时间"
+				name: "时间",
 				url: "https://time.linyunlink.top",
 				external: true,
 				icon: "fa7-brands:time-line",
