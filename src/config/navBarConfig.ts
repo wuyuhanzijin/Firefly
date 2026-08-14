@@ -101,7 +101,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "网盘"
+				name: "网盘",
 				url: "https://drive.linyunlink.top",
 				external: true,
 				icon: "fa7-brands:map-drive-24-regular",
