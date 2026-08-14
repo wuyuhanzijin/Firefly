@@ -80,7 +80,7 @@ export const booknavConfig: BooknavGroup[] = [
 	{
 		id: "ai",
 		name: "AI",
-		icon: "material-symbols:network_intel_node",
+		icon: "material-symbols:network-intel-node",
 		desc: "AI代替大脑（bushi",
 		weight: 90,
 		items: [
