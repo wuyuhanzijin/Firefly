@@ -104,13 +104,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "网盘",
 				url: "https://drive.linyunlink.top",
 				external: true,
-				icon: "fa7-brands:map-drive-24-regular",
+				icon: "material-symbols:storage",
 			},
 			{
 				name: "时间",
 				url: "https://time.linyunlink.top",
 				external: true,
-				icon: "fa7-brands:time-line",
+				icon: "material-symbols:more-time",
 			},
 		],
 	});
