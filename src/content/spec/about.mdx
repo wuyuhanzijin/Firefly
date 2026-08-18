@@ -11,35 +11,38 @@
 
 ## 📜 发展历程
 
-<div class="not-prose my-4">
-  <div class="rounded-2xl border border-(--line-divider) overflow-hidden">
-    <div class="p-5 sm:p-6">
-      {[
-        { date: "2026-07-26", event: "“凌云·LinYun”迁移至 Astro" },
-        { date: "2026-05-01", event: "“凌云·LinYun”再次迁移，使用 Halo" },
-        { date: "2025-07-27", event: "本站完成 ICP 备案" },
-        { date: "2025-07-08", event: "凌云肆二期开始运营" },
-        { date: "2024-08-25", event: "“凌云·LinYun”加入“十年之约”项目" },
-        { date: "2024-07-23", event: "“凌云·LinYun”加入“开往”项目" },
-        { date: "2023-08-14", event: "凌云肆一期终止支持" },
-        { date: "2023-06-16", event: "使用新的域名 linyunlink.top" },
-        { date: "2023-04-23", event: "“凌云·LinYun”迁移至 NotionNext" },
-        { date: "2022-07-29", event: "注册 linyun.link，“凌云·LinYun”成立" },
-        { date: "2022-05-16", event: "凌云肆一期运营，凌云·LinYun 的前身" },
-      ].map((item, index) => (
-        <div class="flex gap-3.5">
-          <div class="flex flex-col items-center">
-            <div class="w-7 h-7 rounded-full bg-(--primary) text-white text-xs font-bold flex items-center justify-center shrink-0">
-              {index + 1}
-            </div>
-            {index < 10 && <div class="w-0.5 flex-1 bg-(--line-divider) my-1.5"></div>}
-          </div>
-          <div class={index < 10 ? "pb-4" : ""}>
-            <p class="font-semibold text-sm mb-1 text-neutral-800 dark:text-neutral-200">{item.date}</p>
-            <p class="text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed">{item.event}</p>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
+<Timeline>
+  <TimelineItem date="2026-07-26" title="博客迁移" type="tip" icon="rocket">
+    博客引擎从Halo迁移至Astro。
+  </TimelineItem>
+  <TimelineItem date="2026-05-01" title="博客迁移" type="tip" icon="refresh">
+    博客再次迁移，使用Halo作为后端。
+  </TimelineItem>
+  <TimelineItem date="2025-07-27" title="完成备案" icon="shield">
+    本站域名linyunlink.top正式完成ICP备案。
+  </TimelineItem>
+  <TimelineItem date="2025-07-08" title="凌云肆二期运营" type="tip" icon="flag">
+    凌云肆二期MC正式启动运营。
+  </TimelineItem>
+  <TimelineItem date="2024-08-25" title="加入“十年之约”" icon="link">
+    凌云·LinYun正式加入“十年之约”项目。
+  </TimelineItem>
+  <TimelineItem date="2024-07-23" title="加入“开往”" icon="link">
+    凌云·LinYun正式加入“开往”项目。
+  </TimelineItem>
+  <TimelineItem date="2023-08-14" title="凌云肆一期终止" type="note" icon="stop">
+    凌云肆MC一期结束运营，停止技术支持。
+  </TimelineItem>
+  <TimelineItem date="2023-06-16" title="启用新域名" icon="globe">
+    旧域名到期，使用新的域名linyunlink.top。
+  </TimelineItem>
+  <TimelineItem date="2023-04-23" title="博客迁移" type="tip" icon="refresh">
+    博客从Gridea迁移至NotionNext。
+  </TimelineItem>
+  <TimelineItem date="2022-07-29" title="博客建立" type="note" icon="flag">
+    注册linyun.link，凌云·LinYun博客正式成立，使用Gridea驱动。
+  </TimelineItem>
+  <TimelineItem date="2022-05-16" title="凌云肆一期运营" icon="rocket">
+    凌云肆MC一期开始运营，凌云·LinYun的前身。
+  </TimelineItem>
+</Timeline>
